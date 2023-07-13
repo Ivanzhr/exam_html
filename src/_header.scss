@@ -1,0 +1,67 @@
+.header {
+    min-height: 750px;
+    background-image: url(/build/img/img_header.jpeg);
+    padding-top: 180px;
+  }
+  
+  h1 {
+    color: $white;
+    font-family: Yeseva One;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    margin: 0 auto;
+    width: 68%;
+  }
+  
+  .header img {
+    width: 250px;
+    margin: 60px auto;
+    display: block;
+  }
+  
+  .header_buttons {
+    width: 508px;
+    margin: 0 auto;
+  }
+  
+  .header button {
+    display: inline-block;
+    width: 220px;
+    height: 80px;
+    border: none;
+    color: #fff;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header_buttons {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+    .header button {
+      width: 100%;
+      margin: 16px 0;
+    }
+    .header img {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    h1 {
+      font-size: 35px;
+    }
+    .header_buttons {
+      width: 90%;
+    }
+    .header img {
+      width: 80%;
+    }
+  }

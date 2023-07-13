@@ -1,0 +1,50 @@
+.ingrediends {
+    min-height: 750px;
+    background-image: url(/build/img/img_ingrediends.jpeg);
+    position: relative;
+    color: $white;
+  }
+  
+  .ingrediends_section {
+    padding: 40px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.80);
+    width: calc(100% / 2 - 75px);
+    position: absolute;
+    top: 100px;
+    right: 75px;
+  }
+  
+  .title_white {
+    font-size: 34px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    color: $white;
+    letter-spacing: 4px;
+    margin: 10px 0 0 0 ;
+    text-align: center;
+  }
+  
+  .title_white img {
+    margin: 10px;
+  }
+  .ingrediends_section p {
+    text-align: center;
+    line-height: 1.8em;
+    margin-top: 15px;
+  }
+  
+  .ingrediends_icon {
+    margin: 40px auto;
+    display: flex;
+  }
+  
+  .ingrediens_img {
+    margin: 12px;
+  }
+  
+  .ingrediends_icon img {
+    width: 100%;
+  }
+  
+  

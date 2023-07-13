@@ -1,0 +1,66 @@
+.about {
+    min-height: 750px;
+    background-image: linear-gradient(270deg, #F4F2F2 0%, #c4c4c4 50%, #F4F2F2 100%), url(/build/img/img_about.jpeg);
+    background-blend-mode: screen;
+    display: flex;
+  
+  }
+  
+  .chef {
+    flex-basis: calc(100% / 2 - 20px);
+    transform: translateY(12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .title_yellow {
+    font-size: 34px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    color: $darkyellow;
+    letter-spacing: 4px;
+    margin: 10px 0 0 0 ;
+    text-align: center;
+  }
+  
+  .title_yellow img {
+    width: 250px;
+    margin-top: 15px;
+  
+  }
+  
+  .about_text {
+    width: 80%;
+    text-align: center;
+    margin-top: 16px;
+    color: $gray;
+    line-height: 1.8em;
+  }
+  
+  .chef_img {
+    margin: 25px 0 0 100px;
+  
+  }
+  
+  .dish {
+    flex-basis: calc(100% / 2 - 20px);
+    height: 100%;
+    transform: translateY(12%);
+    
+  }
+  
+  .dish img {
+    height: 600px
+  }
+  
+  @media screen and (max-width:1100px) {
+    .dish {
+      display: none;
+    }
+  
+    .chef {
+      flex-basis: 100%;
+    }
+  }

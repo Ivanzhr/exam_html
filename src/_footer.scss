@@ -1,0 +1,47 @@
+.footer {
+    min-height: 350px;
+    opacity: 0.75;
+    background: #000;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+   }
+  
+   .col_footer {
+    margin: 20px;
+    flex-basis: calc(100% / 3 - 40px);
+   }
+  
+   .col_footer p {
+    font-size: 14px;
+    line-height: 180%;
+   }
+  
+   .title_footer {
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    
+   }
+  
+   .title_footer img {
+    margin: 20px auto;
+   }
+  
+   @media screen and (max-width: 968px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+    .col_footer {
+      padding: 50px 15px;
+    }
+   }
+  
+   @media screen and (max-width: 550px) {
+    .col_footer:nth-child(1) {
+      display: none;
+   }
+  
+  }
